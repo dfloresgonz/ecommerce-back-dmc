@@ -8,6 +8,8 @@ async function bootstrap() {
 
   app.setGlobalPrefix('api');
 
+  // comentario xyz
+
   const productsConfig = new DocumentBuilder()
     .setTitle('Products API')
     .setDescription('API for managing products')
