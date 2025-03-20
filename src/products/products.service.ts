@@ -9,6 +9,7 @@ export class ProductsService {
   }
 
   findAll() {
+    console.log('finding all products... service');
     return `This action returns all products`;
   }
 
